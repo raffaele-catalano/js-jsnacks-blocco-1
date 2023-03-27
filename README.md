@@ -3,8 +3,11 @@ Snacks!
 <!-- Abstract:xxx -->
 ## JSnack #5
 - Creare un `array` vuoto;
-- Chiedere all'utente di inserire un numero per sei volte;
-- Se il numero è dispari, inserirlo nell'array.
+- Creare un ciclo `for` che si ripete per num.6 volte;
+- Ogni volta che il ciclo si ripete viene chiesto all'utente di inserire un numero qualsiasi;
+- Quanto l'utente inserisce un numero quest'ultimo viene controllato;
+- Se il numero è dispari (non divisibile per due), viene *pushato* nell'array;
+- I numeri che, eventualmente popolano l'array vengono stampati in pagina.
 
 <!-- ## Install & Dependence
 - python

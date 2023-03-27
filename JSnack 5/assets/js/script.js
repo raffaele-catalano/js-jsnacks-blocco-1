@@ -21,7 +21,25 @@ for (let i = 0; i < 6; i++) {
 
     if (numRequest % 2) {
         arrayNumbers.push(numRequest)
-    }
+        console.log('numeri dispari aggiunti in array',arrayNumbers);
+
+        document.getElementById('output').innerHTML = `
+        Here's your <em>magic</em> numbers: ${arrayNumbers}
+        <br>
+        Odd is Good, Odd is Better! <i class="fa-solid fa-face-grin-wink" style="color: #fcd703;"></i>
+        <br>
+        <img src="https://media.tenor.com/XpXsPDTXhYQAAAAC/math-numbers.gif" alt="numbers">
+        `
+    } 
+    // else 
+    //     document.getElementById('output').innerHTML = `
+    //     There are no <em>magic</em> numbers! <i class="fa-solid fa-face-frown-open" style="color: #fcd703;"></i>
+    //     <br>
+    //     Try Again!
+    //     <br>
+    //     <img src="https://media.tenor.com/XpXsPDTXhYQAAAAC/math-numbers.gif" alt="numbers">
+    //     `
+    
 }
 
 
@@ -32,20 +50,27 @@ for (let i = 0; i < 6; i++) {
         
 //         console.log('numero inserito -->',numRequest);
 
-//     if (numRequest % 2) {
-//         arrayNumbers.push(numRequest)
-//     }
-
+//         if (numRequest % 2) {
+//             arrayNumbers.push(numRequest)
+//             console.log('numeri dispari aggiunti in array',arrayNumbers);
+    
+//             document.getElementById('output').innerHTML = `
+//             Here's your <em>magic</em> numbers: ${arrayNumbers}
+//             <br>
+//             Odd is Good, Odd is Better! <i class="fa-solid fa-face-grin-wink" style="color: #fcd703;"></i>
+//             <br>
+//             <img src="https://media.tenor.com/XpXsPDTXhYQAAAAC/math-numbers.gif" alt="numbers">
+//             `
+//         } 
+//         // else 
+//         //     document.getElementById('output').innerHTML = `
+//         //     There are no <em>magic</em> numbers! <i class="fa-solid fa-face-frown-open" style="color: #fcd703;"></i>
+//         //     <br>
+//         //     Try Again!
+//         //     <br>
+//         //     <img src="https://media.tenor.com/XpXsPDTXhYQAAAAC/math-numbers.gif" alt="numbers">
+//         //     `
 //     i++
-
 // }
 
-console.log('numeri salvati in array',arrayNumbers);
 
-document.getElementById('output').innerHTML = `
-Here's your <em>magic</em> numbers: ${arrayNumbers}
-<br>
-Odd is Good, Odd is Better! <i class="fa-solid fa-face-grin-wink" style="color: #fcd703;"></i>
-<br>
-<img src="https://media.tenor.com/XpXsPDTXhYQAAAAC/math-numbers.gif" alt="numbers">
-`

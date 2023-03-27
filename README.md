@@ -1,14 +1,22 @@
 Snacks!
 ===
 <!-- Abstract:xxx -->
-## JSnack #5
+## Odd is Good
+>Jsnack #5
 - Creare un `array` vuoto;
 - Creare un ciclo `for` che si ripete per n.6 volte;
 - Ogni volta che il ciclo si ripete viene chiesto all'utente di inserire un numero qualsiasi;
 - Quanto l'utente inserisce un numero quest'ultimo viene controllato;
 - Se il numero è dispari (non divisibile per due), viene *pushato* nell'array;
-- I numeri che, eventualmente popolano l'array vengono stampati in pagina.
-
+- I numeri che, eventualmente, popolano l'array vengono stampati in pagina.
+---
+## Cube you!
+>Jsnack #6
+- Creare un `array` vuoto;
+- Interrogare l'utente chiedendogli di inserire un numero qualsiasi;
+- Creare un ciclo `while` che in base al numero inserito dall'utente calcoli il cubo di ogni singolo numero che compone l'intervallo numero, partendo da 0 fino ad arrivare al numero inserito;
+- *Pushare* nell'array iniziale il risultato dell'operazione matematica;
+- *Stampare* in pagina il risultato.
 <!-- ## Install & Dependence
 - python
 - pytorch

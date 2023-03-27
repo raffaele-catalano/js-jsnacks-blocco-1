@@ -3,7 +3,7 @@ Snacks!
 <!-- Abstract:xxx -->
 ## JSnack #5
 - Creare un `array` vuoto;
-- Creare un ciclo `for` che si ripete per num.6 volte;
+- Creare un ciclo `for` che si ripete per n.6 volte;
 - Ogni volta che il ciclo si ripete viene chiesto all'utente di inserire un numero qualsiasi;
 - Quanto l'utente inserisce un numero quest'ultimo viene controllato;
 - Se il numero è dispari (non divisibile per due), viene *pushato* nell'array;

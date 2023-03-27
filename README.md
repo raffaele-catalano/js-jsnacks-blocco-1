@@ -17,6 +17,15 @@ Snacks!
 - Creare un ciclo `while` che in base al numero inserito dall'utente calcoli il cubo di ogni singolo numero che compone l'intervallo numero, partendo da 0 fino ad arrivare al numero inserito;
 - *Pushare* nell'array iniziale il risultato dell'operazione matematica;
 - *Stampare* in pagina il risultato.
+---
+## Powaaa
+>Jsnack #7
+- Creare un `array` vuoto;
+- Settare un contatore;
+- Inizializzare un ciclo `while` il cui massimo valore deve esser inferiore a 1000;
+- Utilizzare `Math.pow` per il calcolo delle potenze;
+- *Pushare* nell'array iniziale il risultato dell'operazione matematica;
+- *Stampare* in pagina il risultato.
 <!-- ## Install & Dependence
 - python
 - pytorch

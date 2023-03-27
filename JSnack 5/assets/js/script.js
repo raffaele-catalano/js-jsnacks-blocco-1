@@ -45,7 +45,7 @@ console.log('numeri salvati in array',arrayNumbers);
 document.getElementById('output').innerHTML = `
 Here's your <em>magic</em> numbers: ${arrayNumbers}
 <br>
-Odd is Good, Odd is Better! <i class="fa-regular fa-face-smile-wink" style="color: #fcd703;"></i>
+Odd is Good, Odd is Better! <i class="fa-solid fa-face-grin-wink" style="color: #fcd703;"></i>
 <br>
 <img src="https://media.tenor.com/XpXsPDTXhYQAAAAC/math-numbers.gif" alt="numbers">
 `

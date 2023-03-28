@@ -12,9 +12,9 @@
 
 const arrayCubi = [];
 
-let numeroInserito = prompt('Inserisci un numero');
+let numeroInserito = parseInt(prompt('Inserisci un numero'));
 
-let counterNum = 0;
+let counterNum = 1;
 
 while (counterNum <= numeroInserito) {
     // let cuboProdotto = Math.cube(counterNum)
